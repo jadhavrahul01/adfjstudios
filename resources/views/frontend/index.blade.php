@@ -1,7 +1,6 @@
-@extends('frontend.layouts.main')
-@section('main-container')
-    <!-- offcanvas area start -->
-
+@extends('frontend.layouts.app')
+@section('title', 'Your Destination for Media Production Excellence')
+@section('page')
     <div class="body-overlay"></div>
 
 

@@ -1,5 +1,6 @@
-@extends('frontend.layouts.main')
-@section('main-container')
+@extends('frontend.layouts.app')
+@section('title', 'Graphic')
+@section('page')
 
 
     <main>
@@ -93,8 +94,8 @@
                                 <a href="https://weblearnbd.net/wp/harry/portfolio/portfolio-details/">
                                     <img width="455" height="500"
                                         src="https://weblearnbd.net/wp/harry/wp-content/uploads/2023/01/portfolio-masonary-1.jpg"
-                                        class="attachment-full size-full" alt="" decoding="async"
-                                        loading="lazy"> </a>
+                                        class="attachment-full size-full" alt="" decoding="async" loading="lazy">
+                                </a>
 
                                 <div class="tp-img-reveal-wrapper" style="top: 504.4px; left: 465px; opacity: 0;">
                                     <div class="tp-img-reveal-wrapper__inner"
@@ -125,8 +126,8 @@
                                 <a href="https://weblearnbd.net/wp/harry/portfolio/portfolio-details/">
                                     <img width="455" height="500"
                                         src="https://weblearnbd.net/wp/harry/wp-content/uploads/2023/01/portfolio-masonary-2.jpg"
-                                        class="attachment-full size-full" alt="" decoding="async"
-                                        loading="lazy"> </a>
+                                        class="attachment-full size-full" alt="" decoding="async" loading="lazy">
+                                </a>
 
                                 <div class="tp-img-reveal-wrapper" style="top: 412.4px; left: 552px; opacity: 0;">
                                     <div class="tp-img-reveal-wrapper__inner"
