@@ -11,6 +11,7 @@ use App\Http\Controllers\Frontend\AudioController;
 use App\Http\Controllers\Frontend\VideoController;
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\GetstartedController;
+use App\Http\Controllers\Frontend\PolicyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,3 +32,4 @@ Route::get('/video', [VideoController::class, 'index']);
 Route::get('/audio', [AudioController::class, 'index']);
 Route::get('/music', [MusicController::class, 'index']);
 Route::get('/get-started', [GetstartedController::class, 'index']);
+Route::get('/policy', [PolicyController::class, 'index']);

@@ -3,7 +3,18 @@
 @section('page')
 
 
-
+<section class="about__heading about__heading-overlay about__spacing include-bg jarallax" data-background="http://127.0.0.1:8000/frontend/img/about/about-breadcrumb.jpg" style="background-image: url(&quot;http://127.0.0.1:8000/frontend/img/about/about-breadcrumb.jpg&quot;);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-10">
+                <div class="about__heading-content text-center p-relative z-index-1">
+                    <span class="about__heading-subtitle">Services</span>
+                    <h3 class="about__heading-title">Discover Our Story</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
     <section class="services__area pt-70 pb-40 grey-bg-15 tp-el-section">
@@ -1141,7 +1152,7 @@
                 </div>
                 <div class="col-xxl-6 col-lg-6">
                     <div class="cta__btn-wrapper-7 d-xl-flex align-items-center mb-40">
-                        <a href="https://weblearnbd.net/tphtml/harry-prv/register.html"
+                        <a href="{{url('get-started')}}"
                             class=" tp-cta-btn-yellow mr-20 mb-20">
                             Get Project <br />
                             Started Now <i class="fa-light fa-arrow-up-right"></i></a>

@@ -30,7 +30,7 @@
                                 </p>
 
                                 <div class="slider__btn-9 mb-85">
-                                    <a href="get-started.html" class="tp-btn-5 tp-link-btn-3">
+                                    <a href="{{url('get-started')}}" class="tp-btn-5 tp-link-btn-3">
                                         Get Started
                                         <span>
                                             <i class="fa-regular fa-arrow-right"></i>
@@ -1505,41 +1505,6 @@
                 </div>
                 <div class="brand__item-wrapper-6 d-flex flex-wrap justify-content-between">
                     <div class="brand__item-6">
-                        <img src="{{ url('frontend/img/client/agency1.png') }}" alt="" />
-                    </div>
-                    <div class="brand__item-6">
-                        <img src="{{ url('frontend/img/client/agency2.png') }}" alt="" />
-                    </div>
-                    <div class="brand__item-6">
-                        <img src="{{ url('frontend/img/client/agency3.png') }}" alt="" />
-                    </div>
-                    <div class="brand__item-6">
-                        <img src="{{ url('frontend/img/client/agency4.png') }}" alt="" />
-                    </div>
-                    <div class="brand__item-6">
-                        <img src="{{ url('frontend/img/client/agency5.png') }}" alt="" />
-                    </div>
-                </div>
-                <div class="brand__item-wrapper-6 d-flex flex-wrap justify-content-between">
-                    <div class="brand__item-6">
-                        <img src="{{ url('frontend/img/client/agency6.png') }}" alt="" />
-                    </div>
-                    <div class="brand__item-6">
-                        <img src="{{ url('frontend/img/client/agency8.png') }}" alt="" />
-                    </div>
-                    <div class="brand__item-6">
-                        <img src="{{ url('frontend/img/client/agency9.png') }}" alt="" />
-                    </div>
-                    <div class="brand__item-6">
-                        <img src="{{ url('frontend/img/client/agency10.png') }}" alt="" />
-                    </div>
-                    <div class="brand__item-6">
-                        <img src="{{ url('frontend/img/client/agency9.png') }}" alt="" />
-                    </div>
-
-                </div>
-                <div class="brand__item-wrapper-6 d-flex flex-wrap justify-content-between">
-                    <div class="brand__item-6">
                         <img src="{{ url('frontend/img/client/client1.png') }}" alt="" />
                     </div>
                     <div class="brand__item-6">
@@ -1553,6 +1518,41 @@
                     </div>
                     <div class="brand__item-6">
                         <img src="{{ url('frontend/img/client/client5.png') }}" alt="" />
+                    </div>
+                </div>
+                <div class="brand__item-wrapper-6 d-flex flex-wrap justify-content-between">
+                    <div class="brand__item-6">
+                        <img src="{{ url('frontend/img/client/client6.png') }}" alt="" />
+                    </div>
+                    <div class="brand__item-6">
+                        <img src="{{ url('frontend/img/client/client7.png') }}" alt="" />
+                    </div>
+                    <div class="brand__item-6">
+                        <img src="{{ url('frontend/img/client/client8.png') }}" alt="" />
+                    </div>
+                    <div class="brand__item-6">
+                        <img src="{{ url('frontend/img/client/client9.png') }}" alt="" />
+                    </div>
+                    <div class="brand__item-6">
+                        <img src="{{ url('frontend/img/client/client10.png') }}" alt="" />
+                    </div>
+
+                </div>
+                <div class="brand__item-wrapper-6 d-flex flex-wrap justify-content-between">
+                    <div class="brand__item-6">
+                        <img src="{{ url('frontend/img/client/client11.png') }}" alt="" />
+                    </div>
+                    <div class="brand__item-6">
+                        <img src="{{ url('frontend/img/client/client12.png') }}" alt="" />
+                    </div>
+                    <div class="brand__item-6">
+                        <img src="{{ url('frontend/img/client/client13.png') }}" alt="" />
+                    </div>
+                    <div class="brand__item-6">
+                        <img src="{{ url('frontend/img/client/client14.png') }}" alt="" />
+                    </div>
+                    <div class="brand__item-6">
+                        <img src="{{ url('frontend/img/client/client14.png') }}" alt="" />
                     </div>
 
                 </div>

@@ -51,9 +51,9 @@
 
                 <div class="footer__widget-content">
                   <ul>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="{{url('about')}}">About Us</a></li>
                     <li><a href="javascript:void(0)">Portfolio</a></li>
-                    <li><a href="policy.html">Privacy Policy</a></li>
+                    <li><a href="{{url('policy')}}">Privacy Policy</a></li>
                     <li>
                       <a href="javascript:void(0)">Terms & Conditions</a>
                     </li>
@@ -62,21 +62,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
-              <div class="footer__widget-6 mb-50 footer-col-6-3">
-                <h3 class="footer__widget-title-6">Support Desk</h3>
-
-                <div class="footer__widget-content">
-                  <ul>
-                    <li><a href="home-creative.html">Digital Solution</a></li>
-                    <li><a href="home-creative.html">Marketing</a></li>
-                    <li><a href="home-creative.html">Finance Support</a></li>
-                    <li><a href="home-creative.html">Insurance</a></li>
-                    <li><a href="home-creative.html">Technology</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div> -->
             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
               <div class="footer__widget-6 mb-50 footer-col-6-4">
                 <h3 class="footer__widget-title-6">Contact Us</h3>
@@ -250,7 +235,7 @@
               </div>
               <div class="col-sm-6">
                 <div class="footer__link-6 text-sm-end">
-                  <a href="policy.html">Privacy Policy</a>
+                  <a href="{{url('policy')}}">Privacy Policy</a>
                   <a href="javascript:void(0)">Terms & Conditions</a>
                   <!-- <a href="javascript:void(0)">Carrier</a> -->
                 </div>

@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Tart Project')
+@section('title', 'Start Project')
 @section('page')
 
 
@@ -110,11 +110,7 @@
                                         formId: "d6e00c8b-caac-4f4e-87db-14d3d0db672a"
                                     });
                                 </script>
-                                <div id="hbspt-form-b85915d6-ba4e-4983-a7da-0a4b98c7f594" class="hbspt-form"
-                                    data-hs-forms-root="true"><iframe id="hs-form-iframe-0" class="hs-form-iframe"
-                                        title="Form 0" scrolling="no" width="100%"
-                                        style="position: static; border: none; display: block; overflow: hidden; width: 100%; height: 492px;"
-                                        height="492"></iframe></div>
+                           
                                 <p class="ajax-response"></p>
                             </div>
                             <div class="cover-hubspot"></div>

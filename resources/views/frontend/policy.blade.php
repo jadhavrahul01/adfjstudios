@@ -5,7 +5,7 @@
     <main>
         <!-- contact area start -->
         <section class="tp-section-area p-relative z-index-1 tp-section-spacing">
-            <div class="tp-section-bg include-bg" data-background="assets/img/contact/contact-bg.png"></div>
+            <div class="tp-section-bg include-bg" data-background="{{url('frontend/img/contact/contact-bg.png')}}"></div>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-8">

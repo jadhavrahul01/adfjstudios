@@ -57,7 +57,7 @@
 
 
                           <li  class="has-dropdown">
-                            <a href="#">Protfolio</a>
+                            <a href="javascript:void(0)">Protfolio</a>
 
                             <ul class="submenu">
                               <li><a href="{{url('music')}}">Music Production</a></li>
@@ -181,7 +181,7 @@
                   <div class="mobile-menu fix mb-40"></div>
 
                   <div class="offcanvas__inner-btn mb-80">
-                    <a href="get-started.html" class="tp-btn-offcanvas-white w-100"
+                    <a href="{{url('get-started')}}"class="tp-btn-offcanvas-white w-100"
                       >Get Started</a
                     >
                   </div>
